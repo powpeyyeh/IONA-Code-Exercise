@@ -27,7 +27,6 @@ const BeedCats = () => {
             window.location.href
         );
         const breedId = pathname.split('/')[2];
-        console.log('breedId', breedId);
         dispatch(_onFetchBreedDetailsAction(breedId));
     };
 

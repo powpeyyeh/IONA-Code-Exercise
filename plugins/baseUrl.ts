@@ -1,1 +1,1 @@
-export const baseUrl = 'https://api.thecatapi.com/';
+export const baseUrl = 'https://api.thecatapi.com';
