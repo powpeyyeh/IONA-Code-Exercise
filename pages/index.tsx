@@ -51,6 +51,7 @@ const Home: NextPage = () => {
 
         if (search !== '') {
             renderCats(search);
+            setCatSelectId(search);
         }
     }, [dispatch]);
 
