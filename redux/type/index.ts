@@ -1,0 +1,8 @@
+interface APP_GLOBAL_USE {
+    CAT_LIST_SELECTION: string;
+    BREED_DETAILS: string;
+}
+export const APP_GLOBAL_USE: APP_GLOBAL_USE = {
+    CAT_LIST_SELECTION: 'CAT_LIST',
+    BREED_DETAILS: 'BREED_DETAILS',
+};

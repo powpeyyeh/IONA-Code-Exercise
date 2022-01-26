@@ -1,0 +1,70 @@
+:root {
+    //
+}
+@font-face {
+    font-family: defaultFont;
+    src: url('../fonts/ProximaNovaFont.otf');
+}
+@font-face {
+    font-family: defaultFontLight;
+    src: url('../fonts/FontsFree-Net-Proxima-Nova-Light.otf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: defaultFont;
+    box-sizing: border-box;
+
+    &::before,
+    &::after {
+        padding: 0;
+        margin: 0;
+        font-family: defaultFont;
+        box-sizing: border-box;
+    }
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: defaultFont;
+    box-sizing: border-box;
+}
+.app {
+    box-sizing: border-box;
+    padding: 30px 0;
+    .container {
+        .loading {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            font-size: 19px;
+        }
+        img {
+            &.card-img-top {
+                width: 100% !important;
+                object-fit: fill !important;
+            }
+        }
+        .card-body {
+            .btn-primary {
+                width: 100% !important;
+            }
+        }
+
+        .col-md-3.col-sm-6.col-12 {
+            margin: 8px 0;
+        }
+
+        .form-select {
+            margin: 12px 0 !important;
+            width: 24% !important;
+        }
+        .loadMoreButton {
+            margin: 12px 0;
+        }
+    }
+}
